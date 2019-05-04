@@ -38,6 +38,7 @@ The following command-line arguments are required:
 -d, --dict: Path to the pickle file containing BibTeX references dictionary.
 -o, --outfile: Path for the output CSV file. If the file already exists, it is appended to.
 ```
+The columns assumed in the CSV file are: Title, Year, Tags, Group, URL, Venue, Notes. Only the Title and Year (optionally, also URL) are populated. The remaining are left empty.
 
 ## Example
 
